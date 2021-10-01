@@ -45,14 +45,3 @@ A web and android Application using HTML,CSS  and Flutter to build an Hotel-Food
 
 ---
 
-## :handshake: Our Contributors
-
-<a href="https://github.com/Shubhamrawat5/open-source-contribution/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Shubhamrawat5/open-source-contribution" />
-</a>
-
-<h2 align="center">
-    <p>
-        Thank You
-    </p>
-</h2>
