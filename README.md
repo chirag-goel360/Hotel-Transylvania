@@ -2,7 +2,6 @@
 A web and android Application using HTML,CSS  and Flutter to build an Hotel-Food Serving App for HacktoberFest.
 
 
-# open-source-contribution
 
 <h1 align="center"> Hacktoberfest 2021 </h1>
 
