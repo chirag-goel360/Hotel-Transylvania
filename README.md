@@ -42,6 +42,3 @@ A web and android Application using HTML,CSS  and Flutter to build an Hotel-Food
     (if folder is not available for your language then create it by yourself)
     4. commit the code
     5. Make pull request
-
----
-
