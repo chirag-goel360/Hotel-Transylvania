@@ -1,0 +1,6 @@
+{
+    "user1":{"name":"mahesh","password":"password1","profession":"chef","id":1},
+    "user2":{"name":"suresh","password":"password2","profession":"owner","id":2},
+    "user3":{"name":"ramesh","password":"password3","profession":"waiter","id":3},
+    "user4":{"name":"mohit","password":"password4","profession":"cashier","id":4}
+ }
