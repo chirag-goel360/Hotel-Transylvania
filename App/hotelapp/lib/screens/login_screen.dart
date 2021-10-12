@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hotelapp/screens/HomeScreen.dart';
 import 'package:wave/config.dart';
 import 'package:wave/wave.dart';
 
@@ -149,7 +150,11 @@ class LoginPage extends StatelessWidget {
                             ),
                           ),
                         ),
-                        onPressed: () {},
+                        onPressed: () {
+
+                          Navigator.pushReplacement(context,   MaterialPageRoute(builder: (context) => HomeScreen()));
+
+                        },
                         child: Text(
                           "Login",
                           style: TextStyle(
