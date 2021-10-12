@@ -31,7 +31,9 @@ class _RoomDetailsState extends State<RoomDetails> {
           Text("About the room:\n Our research into hotel guests' online behaviour shows that alarmingly often they have problems deciding which room to choose.",style: TextStyle(
             fontSize: 30,
             fontWeight:FontWeight.w600
-          ),)
+          ),),
+
+          TextButton(onPressed: (){}, child: Text("Book Now"))
         ],
       ),
     );
