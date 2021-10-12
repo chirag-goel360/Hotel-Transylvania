@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hotelapp/screens/RoomDetailsScreen.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({Key? key}) : super(key: key);
@@ -18,7 +19,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   List<List<String>> room = [
     [
-     " 1",
+      " 1",
       "https://thumbs.dreamstime.com/b/hotel-room-beautiful-orange-sofa-included-43642330.jpg",
       "2000"
     ],
@@ -68,15 +69,29 @@ class _HomeScreenState extends State<HomeScreen> {
           Container(
             height: 200,
             child: ListView.builder(
-              itemCount: room.length,
-              itemBuilder: (BuildContext, index) {
-              return ListTile(
-                leading: Container(
-                    height: 50, width: 50, child: Image.network(room[index][1])),
-                    title: Text("Occupency:"+room[index][0]),
-                    trailing: Text("Price:"+room[index][2]),
-              );
-            }),
+                itemCount: room.length,
+                itemBuilder: (BuildContext, index) {
+                  return ListTile(
+                    dense: true,
+                    leading: Container(
+                        height: 50,
+                        width: 50,
+                        child: Hero(
+                            tag: 'room'+room[index][1], child: Image.network(room[index][1]))),
+                    title: Text("Occupency:" + room[index][0]),
+                    subtitle: Text("Price:" + room[index][2]),
+                    trailing: TextButton(
+                      child: Text('Book Now'),
+                      onPressed: () {
+                        Navigator.push(
+                            BuildContext,
+                            MaterialPageRoute(
+                                builder: (context) =>
+                                    RoomDetails(url: room[index][1])));
+                      },
+                    ),
+                  );
+                }),
           )
         ],
       ),
