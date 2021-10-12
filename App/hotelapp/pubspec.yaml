@@ -25,7 +25,7 @@ dependencies:
   flutter:
     sdk: flutter
   wave: ^0.2.0
-
+  carousel_slider: ^4.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
