@@ -78,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         width: 50,
                         child: Hero(
                             tag: 'room'+room[index][1], child: Image.network(room[index][1]))),
-                    title: Text("Occupency:" + room[index][0]),
+                    title: Text("Occupancy:" + room[index][0]),
                     subtitle: Text("Price:" + room[index][2]),
                     trailing: TextButton(
                       child: Text('Book Now'),
