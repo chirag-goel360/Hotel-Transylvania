@@ -3,9 +3,8 @@ A web and android Application using HTML,CSS  and Flutter to build an Hotel-Food
 
 
 
-<h1 align="center"> Hacktoberfest 2021 </h1>
+<h1 align="center"> Hacktoberfest 2022 </h1>
 
-![image](https://user-images.githubusercontent.com/64991656/135403993-8436cfd2-5314-4c03-8509-d33e51c565b2.png)
 
 ## Event details :
 
